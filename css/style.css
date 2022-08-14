@@ -1,6 +1,10 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Raleway&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 html, body{
     margin: 0%;
     box-sizing: border-box;
