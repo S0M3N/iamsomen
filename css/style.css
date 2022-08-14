@@ -13,7 +13,7 @@ html, body{
     --primary-color: #4458DC;
     --primary-color2: #854FEE;
     --title-color: #141313;
-    --text-color: #777777;
+    --text-color: #3f3f3f;
     --border-color: #201f1f17;
     --gradient-color: linear-gradient(90deg, #4458DC 0%, #854FEE 100%);
     --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
@@ -72,6 +72,11 @@ button.primary-button::after, button.secondary-button::after{
 .button.secondary-button:hover{
     background: var(--gradient-color);
     color: whitesmoke;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--raleway);
 }
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -136,3 +141,16 @@ button.primary-button::after, button.secondary-button::after{
     width: 20rem;
 }
 
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 30px/50px var(--raleway);
+    letter-spacing: 12px;
+}
+
+.site-main .about-area .about-title  .paragraph > p{
+    padding: .4rem 0;
+}
