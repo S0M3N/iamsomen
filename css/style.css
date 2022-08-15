@@ -1,6 +1,11 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Raleway&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -84,35 +89,8 @@ p.para{
     font: normal 500 16px/25px var(--raleway);
 }
 
-.header_area .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
-    color: #4458DC;
-    font-family: var(--DynaPuff);
-}
-
-.header_area .main-menu .navbar {
-    padding: 1rem 20rem;
-}
-
-.header_area .main-menu .nav-item .nav-link {
-    font: normal bold 15px/2px var(--raleway);
-    text-transform: uppercase;
-    pad: 1.7rem;
-    color: var(--title-color);
-}
-
-.header_area .main-menu .navbar-nav .active a {
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.header_area .main-menu .navbar-nav a:hover {
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+ul li a{
+    font-style: var(--raleway);
 }
 
 .site-banner{
